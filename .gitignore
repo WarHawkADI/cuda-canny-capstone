@@ -1,0 +1,22 @@
+# Build products
+bin/
+build/
+
+# Downloaded / generated inputs (recreate with ./scripts/fetch_data.sh)
+data/raw/
+data/input/aerials/
+data/input/textures/
+data/input/synthetic/
+
+# Python
+__pycache__/
+*.pyc
+
+# Upload separately to Coursera
+proof_of_execution.zip
+
+# Large stage dumps of the equalize run (CSV/log are kept)
+results/equalize/*.png
+
+# Course material
+*Rubric*.pdf

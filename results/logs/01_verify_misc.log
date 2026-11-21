@@ -1,0 +1,53 @@
+GPU 0: NVIDIA GeForce RTX 2050 | compute 8.6 | 16 SMs | 4096 MiB | runtime 12.6 | driver 13.1
+Images: 39 | workers/streams: 1 | sigma 1.40 (kernel 11 taps) | low 0.10 high 0.25 | equalize off | verify on | repeat 3
+[   1/39] 4.1.01.png                 256x256   c3  gpu    0.531 ms (h2d 0.078, kern 0.422, d2h 0.031) passes   8 edges     2792  cpu      2.52 ms  x   4.7  mismatch 0
+[   2/39] 4.1.02.png                 256x256   c3  gpu    0.560 ms (h2d 0.041, kern 0.480, d2h 0.039) passes   8 edges     3052  cpu      3.46 ms  x   6.2  mismatch 0
+[   3/39] 4.1.03.png                 256x256   c3  gpu    0.745 ms (h2d 0.032, kern 0.678, d2h 0.035) passes   8 edges     2260  cpu      2.60 ms  x   3.5  mismatch 0
+[   4/39] 4.1.04.png                 256x256   c3  gpu    0.606 ms (h2d 0.038, kern 0.536, d2h 0.031) passes  12 edges     3975  cpu      2.25 ms  x   3.7  mismatch 0
+[   5/39] 4.1.05.png                 256x256   c3  gpu    0.914 ms (h2d 0.033, kern 0.826, d2h 0.055) passes   8 edges     3369  cpu      2.51 ms  x   2.7  mismatch 0
+[   6/39] 4.1.06.png                 256x256   c3  gpu    0.497 ms (h2d 0.043, kern 0.421, d2h 0.033) passes   8 edges     6487  cpu      2.38 ms  x   4.8  mismatch 0
+[   7/39] 4.1.07.png                 256x256   c3  gpu    0.428 ms (h2d 0.046, kern 0.346, d2h 0.037) passes   8 edges     2454  cpu      2.23 ms  x   5.2  mismatch 0
+[   8/39] 4.1.08.png                 256x256   c3  gpu    0.899 ms (h2d 0.057, kern 0.793, d2h 0.048) passes   8 edges     3557  cpu      2.20 ms  x   2.4  mismatch 0
+[   9/39] 4.2.01.png                 512x512   c3  gpu    1.817 ms (h2d 0.094, kern 1.661, d2h 0.062) passes  20 edges     6146  cpu      9.40 ms  x   5.2  mismatch 0
+[  10/39] 4.2.03.png                 512x512   c3  gpu    1.371 ms (h2d 0.120, kern 1.194, d2h 0.057) passes  12 edges    33377  cpu     16.58 ms  x  12.1  mismatch 0
+[  11/39] 4.2.05.png                 512x512   c3  gpu    0.829 ms (h2d 0.135, kern 0.643, d2h 0.051) passes   8 edges    14472  cpu     10.03 ms  x  12.1  mismatch 0
+[  12/39] 4.2.06.png                 512x512   c3  gpu    0.729 ms (h2d 0.093, kern 0.590, d2h 0.047) passes   8 edges    19213  cpu      9.51 ms  x  13.0  mismatch 0
+[  13/39] 4.2.07.png                 512x512   c3  gpu    0.845 ms (h2d 0.086, kern 0.715, d2h 0.044) passes  12 edges    10753  cpu      9.37 ms  x  11.1  mismatch 0
+[  14/39] 5.1.09.png                 256x256   c1  gpu    0.458 ms (h2d 0.058, kern 0.369, d2h 0.031) passes   8 edges     2779  cpu      2.47 ms  x   5.4  mismatch 0
+[  15/39] 5.1.10.png                 256x256   c1  gpu    0.871 ms (h2d 0.013, kern 0.805, d2h 0.053) passes   8 edges    10533  cpu      2.44 ms  x   2.8  mismatch 0
+[  16/39] 5.1.11.png                 256x256   c1  gpu    0.948 ms (h2d 0.050, kern 0.847, d2h 0.051) passes   8 edges     2006  cpu      2.28 ms  x   2.4  mismatch 0
+[  17/39] 5.1.12.png                 256x256   c1  gpu    1.112 ms (h2d 0.043, kern 1.019, d2h 0.049) passes  12 edges     3932  cpu      2.28 ms  x   2.1  mismatch 0
+[  18/39] 5.1.13.png                 256x256   c1  gpu    0.402 ms (h2d 0.017, kern 0.363, d2h 0.023) passes   8 edges     4434  cpu      1.88 ms  x   4.7  mismatch 0
+[  19/39] 5.1.14.png                 256x256   c1  gpu    0.499 ms (h2d 0.014, kern 0.454, d2h 0.031) passes   8 edges     7913  cpu      2.50 ms  x   5.0  mismatch 0
+[  20/39] 5.2.08.png                 512x512   c1  gpu    1.255 ms (h2d 0.033, kern 1.159, d2h 0.062) passes  12 edges     9244  cpu      8.66 ms  x   6.9  mismatch 0
+[  21/39] 5.2.09.png                 512x512   c1  gpu    1.170 ms (h2d 0.046, kern 1.076, d2h 0.048) passes  16 edges    30527  cpu      9.66 ms  x   8.3  mismatch 0
+[  22/39] 5.2.10.png                 512x512   c1  gpu    1.276 ms (h2d 0.058, kern 1.156, d2h 0.062) passes  12 edges    32394  cpu      9.53 ms  x   7.5  mismatch 0
+[  23/39] 5.3.01.png                1024x1024  c1  gpu    2.145 ms (h2d 0.129, kern 1.911, d2h 0.105) passes  16 edges    50853  cpu     42.73 ms  x  19.9  mismatch 0
+[  24/39] 5.3.02.png                1024x1024  c1  gpu    2.023 ms (h2d 0.193, kern 1.715, d2h 0.115) passes  12 edges    70629  cpu     59.71 ms  x  29.5  mismatch 0
+[  25/39] 7.1.01.png                 512x512   c1  gpu    0.782 ms (h2d 0.068, kern 0.670, d2h 0.044) passes  12 edges    23205  cpu      9.70 ms  x  12.4  mismatch 0
+[  26/39] 7.1.02.png                 512x512   c1  gpu    0.846 ms (h2d 0.035, kern 0.748, d2h 0.062) passes   8 edges     3807  cpu     10.46 ms  x  12.4  mismatch 0
+[  27/39] 7.1.03.png                 512x512   c1  gpu    0.804 ms (h2d 0.049, kern 0.692, d2h 0.062) passes  12 edges    17844  cpu      9.58 ms  x  11.9  mismatch 0
+[  28/39] 7.1.04.png                 512x512   c1  gpu    1.334 ms (h2d 0.053, kern 1.235, d2h 0.046) passes  12 edges    14906  cpu      9.20 ms  x   6.9  mismatch 0
+[  29/39] 7.1.05.png                 512x512   c1  gpu    0.819 ms (h2d 0.036, kern 0.737, d2h 0.046) passes  12 edges    36925  cpu     15.47 ms  x  18.9  mismatch 0
+[  30/39] 7.1.06.png                 512x512   c1  gpu    0.821 ms (h2d 0.047, kern 0.727, d2h 0.047) passes  12 edges    35302  cpu     10.80 ms  x  13.2  mismatch 0
+[  31/39] 7.1.07.png                 512x512   c1  gpu    1.158 ms (h2d 0.035, kern 1.059, d2h 0.063) passes  12 edges    42734  cpu     10.27 ms  x   8.9  mismatch 0
+[  32/39] 7.1.08.png                 512x512   c1  gpu    0.672 ms (h2d 0.044, kern 0.583, d2h 0.045) passes   8 edges     7426  cpu     10.39 ms  x  15.5  mismatch 0
+[  33/39] 7.1.09.png                 512x512   c1  gpu    0.887 ms (h2d 0.039, kern 0.801, d2h 0.047) passes  12 edges    25051  cpu     12.25 ms  x  13.8  mismatch 0
+[  34/39] 7.1.10.png                 512x512   c1  gpu    0.910 ms (h2d 0.038, kern 0.830, d2h 0.043) passes  12 edges    30616  cpu     11.34 ms  x  12.5  mismatch 0
+[  35/39] 7.2.01.png                1024x1024  c1  gpu    1.333 ms (h2d 0.121, kern 1.108, d2h 0.105) passes  12 edges    13713  cpu     41.89 ms  x  31.4  mismatch 0
+[  36/39] boat.512.png               512x512   c1  gpu    1.303 ms (h2d 0.043, kern 1.196, d2h 0.064) passes  12 edges    16237  cpu     15.49 ms  x  11.9  mismatch 0
+[  37/39] gray21.512.png             512x512   c1  gpu    0.552 ms (h2d 0.055, kern 0.429, d2h 0.069) passes   8 edges      879  cpu      5.88 ms  x  10.6  mismatch 0
+[  38/39] house.png                  512x512   c3  gpu    0.962 ms (h2d 0.100, kern 0.828, d2h 0.035) passes  12 edges    20287  cpu     13.47 ms  x  14.0  mismatch 0
+[  39/39] ruler.512.png              512x512   c1  gpu    0.789 ms (h2d 0.046, kern 0.667, d2h 0.077) passes   8 edges    47794  cpu      7.93 ms  x  10.0  mismatch 0
+
+===== Summary =====
+Processed       : 39 / 39 images (9.83 megapixels)
+Wall time       : 3928.43 ms (load + GPU + save, 1 workers)
+Throughput      : 9.93 images/s, 2.50 MP/s end-to-end
+GPU time (sum)  : 36.90 ms total, 32.49 ms kernels -> 266.40 MP/s
+GPU stages (ms) : h2d 2.36 | gray 2.05 | blur 2.34 | sobel 1.19 | nms+thresh 2.52 | hysteresis 24.38 | d2h 2.06
+CPU time (sum)  : 413.27 ms -> 23.79 MP/s
+Speedup         : 11.2x (CPU reference / GPU incl. transfers)
+Verification    : PASSED (0 mismatched pixels)
+Metrics CSV     : results/misc/results.csv
+Edge maps       : results/misc

@@ -1,0 +1,25 @@
+Usage: ./bin/cuda_canny --input <image|dir> [options]
+
+GPU-accelerated Canny edge detection for batches of images.
+
+Options:
+  -i, --input PATH       Image file or directory (searched recursively)
+  -o, --output DIR       Output directory (default: data/output)
+      --csv PATH         Per-image metrics CSV
+                         (default: <output>/results.csv)
+      --sigma F          Gaussian sigma in pixels, (0, 5] (default: 1.4)
+      --low F            Weak threshold, fraction of max gradient (default: 0.10)
+      --high F           Strong threshold, fraction of max gradient (default: 0.25)
+      --equalize         Histogram-equalize before edge detection
+  -w, --workers N        Concurrent host threads / CUDA streams (default: 2)
+      --device N         CUDA device ordinal (default: 0)
+  -n, --max-images N     Process at most N images (default: all)
+  -r, --repeat N         Run the GPU pipeline N times per image and report
+                         the fastest run (default: 1)
+      --verify           Run the CPU reference, compare pixel by pixel and
+                         report the speedup
+      --save-stages      Also save gray, blur and gradient images
+      --quiet            Print only the summary
+  -h, --help             Show this help
+
+Supported formats: png, jpg, bmp, tga, pgm, ppm.

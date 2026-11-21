@@ -1,0 +1,11 @@
+GPU 0: NVIDIA GeForce RTX 2050 | compute 8.6 | 16 SMs | 4096 MiB | runtime 12.6 | driver 13.1
+Images: 142 | workers/streams: 1 | sigma 1.40 (kernel 11 taps) | low 0.10 high 0.25 | equalize off | verify off | repeat 1
+
+===== Summary =====
+Processed       : 142 / 142 images (147.80 megapixels)
+Wall time       : 9161.15 ms (load + GPU + save, 1 workers)
+Throughput      : 15.50 images/s, 16.13 MP/s end-to-end
+GPU time (sum)  : 343.84 ms total, 281.15 ms kernels -> 429.85 MP/s
+GPU stages (ms) : h2d 41.37 | gray 26.12 | blur 36.31 | sobel 18.67 | nms+thresh 29.72 | hysteresis 170.33 | d2h 21.31
+Metrics CSV     : /tmp/cuda_canny_scaling/results.csv
+Edge maps       : /tmp/cuda_canny_scaling
