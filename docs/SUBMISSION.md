@@ -6,7 +6,7 @@ CUDA Canny: Batch GPU Edge Detection with Bit-Exact CPU Verification
 
 ## Code repository URL
 
-https://github.com/<your-user>/<repo-name>   ← replace after pushing
+https://github.com/WarHawkADI/cuda-canny-capstone
 
 ## Proof of execution artifacts
 
