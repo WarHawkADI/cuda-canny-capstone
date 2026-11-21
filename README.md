@@ -72,7 +72,7 @@ scripts/
   convert_images.py TIFF->PNG conversion and synthetic image generator
   make_report.py    figures + summary table from the CSV/logs
   package_proof.sh  zips results/ into proof_of_execution.zip
-docs/               presentation script and submission text
+docs/               slide deck (CUDA_Canny_Capstone.pptx), talk script, submission text
 data/input/misc/    SIPI misc volume as PNG (committed; other volumes are downloaded)
 results/            proof of execution: logs, CSVs, edge maps, stage images, figures
 Makefile, run.sh    build and end-to-end demo
